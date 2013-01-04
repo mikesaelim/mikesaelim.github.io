@@ -205,21 +205,28 @@ float: left;
 {
 margin-left: 0.5em;
 display: block;
-padding: 0.6em 1.2em 0.6em 1.2em;   /* 1.1em 1.4em 1.0em 1.4em; */
-background: #eeeeee;  /* #fff url('images/n4.gif') repeat-x; */
-border: solid 1px #eeeeee;  /* #fff; */
-color: #4d4e53;  /* #616161; */
+padding: 0.6em 1.5em 0.6em 1.5em;   /* 1.1em 1.4em 1.0em 1.4em; */
+background: #bbbbbb; /* #fff url('images/n4.gif') repeat-x; */
+/* border: solid 1px #fff; */
+color: #b31b1b;  /* #616161; */
 font-weight: bold;
-font-size: 1.0em; /* 1.0em; */
+font-size: 1.0em;
 text-transform: lowercase;
 text-decoration: none;
 }
 
-#menu li a.active
+#menu li.active
 {
-background: #b31b1b; /* #CA2F2F url('images/n3.gif') repeat-x; */
-color: #eeeeee;  /* #fff; */
-border: solid 1px #A94B4B;
+margin-left: 0.5em;
+display: block;
+padding: 0.6em 1.5em 0.6em 1.5em;   /* 1.1em 1.4em 1.0em 1.4em; */
+background: #f0eee4;  /* #fff url('images/n4.gif') repeat-x; */
+/* border: solid 1px #fff; */
+color: #000000;  /* #616161; */
+font-weight: bold;
+font-size: 1.0em;
+text-transform: lowercase;
+text-decoration: none;
 }
 
 /* Main */
