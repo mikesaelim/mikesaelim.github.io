@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Nonzero
+Version    : 1.0
+Released   : 20080425
+
+-->
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<title>Mike Saelim @ Cornell &mdash; Research</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+
+
+<body>
+
+<div id="header">
+<div id="header_inner" class="fixed">
+
+<div id="logo">
+  <h1><span>Mike Saelim</span></h1>
+  <!-- <h2>@ Cornell University</h2> -->
+</div>
+
+<div id="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cv.html">CV</a></li>
+    <li><a href="research.html" class="active">Research</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+  </ul>
+</div>
+
+</div>
+</div>
+
+
+
+
+<div id="main">
+<div id="main_inner" class="fixed">
+<div id="primaryContent_columnless">
+<div id="columnA_columnless">
+  
+  <h3>Theoretical particle physics at Cornell &nbsp;&nbsp;<font size=3>(2010 &mdash; &nbsp;)</font></h3>
+  <img src="images/lagrangian.jpg" width=150px class="floatTL" alt="L = ?">
+  Advisor: <a href="http://www.lepp.cornell.edu/~maxim/">Maxim Perelstein</a><br>
+  <br>
+  <p>The Large Hadron Collider has thrust humanity into the TeV-scale era of particle physics, and with it we have discovered a new Higgs-like particle and set stronger limits on possible theories of supersymmetry (SUSY) and beyond-the-Standard-Model (BSM) physics.  But while the experimental community continues to improve their searches for new physics, the lack of clear BSM discoveries at the LHC so far has made it apparent that if we are to discover new physics there, the theoretical community must continually develop new methods as well.  
+
+  
+  <h4>Tagging boosted top quarks from gluino cascade decays</h4>
+  <i>with J. Berger, M. Perelstein, and A. Spray</i>
+  <p>Higher collision energies at the LHC motivate the use of top tagging in BSM searches.  Decays of new heavy particles can produce top quarks that are highly boosted in the lab frame, collimating the top's hadronic decay products into a single "fat jet" that can be separated from light quark jets by its three-pronged substructure and invariant mass.  We particularly focused on SUSY searches for gluino pair production, where gluinos decay to top and stop, and stops decay to top and neutralino (all intermediate particles on-shell), resulting in a <font face="helvetica">2t + 2t&#773; + 2&chi;<sup>0</sup></font> final state with up to four boosted tops.  These boosted tops can be tagged and used to identify the SUSY signal events amidst the Standard Model background.
+  
+  <p>We used <a href="http://feynrules.irmp.ucl.ac.be">FeynRules</a> and <a href="http://launchpad.net/madgraph5">MadGraph/MadEvent</a> for Monte Carlo event generation, <a href="http://www.thphys.uni-heidelberg.de/~plehn/index.php?show=prospino&visible=tools">Prospino</a> for NLO cross sections, <a href="http://home.thep.lu.se/~torbjorn/Pythia.html">Pythia</a> for hadronization, and <a href="http://fastjet.fr">FastJet</a> for jet clustering and its implementation of the <a href="http://arxiv.org/abs/0806.0848">Johns Hopkins top tagger</a>.  At the 7 TeV LHC, we found that requiring two top-tagged jets and MET &gt; 100 GeV gave us sensitivity to gluino masses up to 1 TeV with 30 fb<sup>-1</sup> of data.  At the 14 TeV LHC, requiring three top-tagged jets and MET &gt; 175 GeV gave us sensitivity to gluino masses up to 1.4 TeV, with S/B &gt; 10 throughout the probed region, after just 10 fb<sup>-1</sup> of data.  <b>[<a href="http://arxiv.org/abs/1111.6594">arXiv:1111.6594</a>]</b>
+
+
+<h4>Markov Chain Monte Carlo in the pMSSM</h4>
+<i>with M. Perelstein</i>
+<p>Previously, M. Blanke, D. Curtin, and M. Perelstein proposed the <a href="http://arxiv.org/abs/1004.5350">SUSY-Yukawa sum rule</a>: the cancellation of the quadratic divergence in the Higgs mass uniquely fixes a particular combination of stop and sbottom masses and mixing angles, which they denoted by <font face="helvetica">&Upsilon;</font> (Upsilon), at tree-level.  However, radiative corrections make the prediction for <font face="helvetica">&Upsilon;</font> dependent on other SUSY parameters.  It thus became important to determine how much <font face="helvetica">&Upsilon;</font> is allowed to vary over the parameter space of the phenomenological Minimal Supersymmetric Standard Model (pMSSM).
+
+<p>A brute-force scan over this multi-dimensional space would be beyond our computational limits, but Markov Chain Monte Carlo (MCMC) allows us to only sample the experimentally allowed regions, and yields a probability distribution for <font face="helvetica">&Upsilon;</font> for any set of experimental inputs.  I implemented the MCMC scan in C++, with the <a href="http://www.gnu.org/software/gsl">GNU Scientific Library</a> and calls to <a href="http://www.lpta.univ-montp2.fr/users/kneur/Suspect/">SuSpect</a> for the calculation of MSSM spectra.  We demonstrated that future measurements of SUSY particle properties at the 14 TeV LHC and a proposed 500 GeV electron-positron collider would nicely constrain the SUSY prediction for <font face="helvetica">&Upsilon;</font>.  <b>[<a href="http://arxiv.org/abs/1201.5839">arxiv:1201.5839</a>]</b>
+
+
+
+<br><br><br><br>
+
+
+
+<h3>Previous research</h3>
+<p class="compact">I feel especially fortunate to have spent my undergraduate and early graduate years researching in so many different areas of physics.  Every one of these postings has contributed to the researcher I am today.
+
+<h5>Experimental particle physics at Cornell (2009)</h5>
+Advisors: <a href="http://wiki.lepp.cornell.edu/lepp/bin/view/People/Ritchie Patterson">Ritchie Patterson</a> and <a href="http://www.physics.cornell.edu/academics/faculty-support/?page=website/faculty&action=show/id=16">Lawrence Gibbons</a>
+<p class="compact">I did some work evaluating the efficiency of proposed event selection cuts for SUSY searches in the same-sign di-electron channel, for the CMS experiment.
+
+<h5>Accelerator physics at Cornell (2008 &mdash; 2009)</h5>
+Advisor: <a href="http://www.lns.cornell.edu/~hoff/">Georg Hoffstaetter</a>
+<p class="compact">We examined the damaging effects of nonlinear dynamics and coherent synchrotron radiation on electron beams for the proposed Energy Recovery Linac (ERL), a next-generation ultra-high brilliance synchrotron light source.
+
+<h5>Experimental particle physics at CERN (REU 2007)</h5>
+Advisor: Sarka Todorova
+<p class="compact">I designed a Kalman filter for software-based reconstruction of muon tracks and detection of misalignments in the muon chamber, for the ATLAS experiment.
+
+<h5>Theoretical particle physics at Michigan State (2006 &mdash; 2008)</h5>
+Advisor: <a href="http://www.pa.msu.edu/~repko/">Wayne Repko</a>
+<p class="compact">We used software to model the energy levels of charmonia and bottomonia by perturbative and non-perturbative methods, incorporating angular momentum f-states.  We then extended this theoretical framework to encompass unequal-mass mesons. <b>[<a href="http://prd.aps.org/abstract/PRD/v80/i3/e034012">Phys. Rev. D80 034012 (2009)</a>, <a href="http://arxiv.org/abs/0903.0551">arXiv:0903.0551</a>]</b>
+
+<h5>Theoretical biophysics at Los Alamos National Laboratory (REU 2006)</h5>
+Advisor: <a href="http://www.t6.lanl.gov/wish/">William Hlavacek</a>, T-6 Group
+<p class="compact">We developed a theoretical model for the early signal transduction pathway that activates CD4 T-cells, an important first alarm in the immune system, and examined the viability of other proposed models.
+
+<h5>Experimental particle physics at Indiana (REU 2005)</h5>
+Advisor: <a href="http://www.physics.indiana.edu/~messier/Professor_Mark_Messier.html">Mark Messier</a>
+<p class="compact">We investigated an unexplained shift of the neutrino energy peak in data from the MINOS Near detector at Fermilab.
+
+<h5>Experimental nuclear physics at Michigan State (2004 &mdash; 2006)</h5>
+Advisor: <a href="http://www.nscl.msu.edu/~tsang/">Betty Tsang</a>, National Superconducting Cyclotron Laboratory
+<p class="compact">We developed software to analyze experimental data on nuclear cross-sections and spectroscopic factors of common and rare nuclei.  <b>[<a href="http://prc.aps.org/abstract/PRC/v73/i4/e044608">Phys. Rev. C73 044608 (2006)</a>, <a href="http://arxiv.org/abs/nucl-ex/0511023">arXiv:nucl-ex/0511023</a>]</b>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="footer" class="fixed">
+  Copyright &copy; 2013 Mike Saelim.  All rights reserved.  Design by <a href="http://www.nodethirtythree.com/">NodeThirtyThree</a> + <a href="http://www.freecsstemplates.org">Free CSS Templates</a>.  Flip is awesome.
+</div>
+
+</body>
+
+
+
+</html>
