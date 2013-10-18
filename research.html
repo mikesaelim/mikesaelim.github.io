@@ -62,6 +62,8 @@ Released   : 20080425
 
 <p>We also proposed improvements to the search for this signal, based on its tendency to produce jets with large invariant mass.  If the gluino is much heavier than the stop, gluino decays can result in boosted stop jets (see the discussion on boosted tops below).  If not, the signal still has enough final state partons that the decay products from different objects may get clustered together, producing high mass jets with <a href="http://arxiv.org/abs/1212.1456">accidental substructure</a>.  By clustering large-radius jets and imposing requirements on their invariant mass, we were able to probe gluino masses up to 1.4 TeV at the 14 TeV LHC with 100 fb<sup>-1</sup> of data.  We also showed the possibility of further improvements by looking for jet substructure with algorithms such as <a href="http://arxiv.org/abs/1011.2268">N-subjettiness</a>.  <b>[<a href="http://link.springer.com/article/10.1007%2FJHEP04%282013%29077">JHEP04(2013)007</a>, <a href="http://arxiv.org/abs/1302.2146">arXiv:1302.2146</a>]</b>  <b>[<a href="http://arxiv.org/abs/1309.7707">arXiv:1309.7707</a>]</b>
 
+<p>See also the <b>[<a href="http://github.com/donerkebab/RPVgluinos">GitHub repository</a>]</b> containing a selection of my code for this project.
+
 
 <h4>Tagging boosted top quarks from gluino cascade decays</h4>
 <i>with J. Berger, M. Perelstein, and A. Spray</i>
@@ -74,7 +76,10 @@ Released   : 20080425
 <i>with M. Perelstein</i>
 <p>Previously, M. Blanke, D. Curtin, and M. Perelstein proposed the <a href="http://arxiv.org/abs/1004.5350">SUSY-Yukawa sum rule</a>: the cancellation of the quadratic divergence in the Higgs mass uniquely fixes a particular combination of stop and sbottom masses and mixing angles, which they denoted by <font face="helvetica">&Upsilon;</font> (Upsilon), at tree-level.  However, radiative corrections make the prediction for <font face="helvetica">&Upsilon;</font> dependent on other SUSY parameters.  It thus became important to determine how much <font face="helvetica">&Upsilon;</font> is allowed to vary over the parameter space of the phenomenological Minimal Supersymmetric Standard Model (pMSSM).
 
-<p>A brute-force scan over this multi-dimensional space would be beyond our computational limits, but Markov Chain Monte Carlo (MCMC) allows us to only sample the experimentally allowed regions, and yields a probability distribution for <font face="helvetica">&Upsilon;</font> for any set of experimental inputs.  I implemented the MCMC scan in C++, with the <a href="http://www.gnu.org/software/gsl">GNU Scientific Library</a> and calls to <a href="http://www.lpta.univ-montp2.fr/users/kneur/Suspect/">SuSpect</a> for the calculation of MSSM spectra.  We demonstrated that future measurements of SUSY particle properties at the 14 TeV LHC and a proposed 500 GeV electron-positron collider would nicely constrain the SUSY prediction for <font face="helvetica">&Upsilon;</font>.  <b>[<a href="http://arxiv.org/abs/1201.5839">arxiv:1201.5839</a>]</b>
+<p>A brute-force scan over this multi-dimensional space would be beyond our computational limits, but Markov Chain Monte Carlo (MCMC) allows us to only sample the experimentally allowed regions, and yields a probability distribution for <font face="helvetica">&Upsilon;</font> for any set of experimental inputs.  I implemented the MCMC scan in C++, with the <a href="http://www.gnu.org/software/gsl">GNU Scientific Library</a> and calls to <a href="http://www.lpta.univ-montp2.fr/users/kneur/Suspect/">SuSpect</a> for the calculation of MSSM spectra.  We demonstrated that future measurements of SUSY particle properties at the 14 TeV LHC and a proposed 500 GeV electron-positron collider would nicely constrain the SUSY prediction for <font face="helvetica">&Upsilon;</font>.
+<b>[<a href="http://arxiv.org/abs/1201.5839">arxiv:1201.5839</a>]</b>
+
+<p>See also the <b>[<a href="http://github.com/donerkebab/UpsilonFit2">GitHub repository</a>]</b> containing a selection of my code for this project.
 
 
 
